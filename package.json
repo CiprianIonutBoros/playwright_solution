@@ -1,0 +1,28 @@
+{
+  "name": "playwright_solution",
+  "version": "1.0.0",
+  "description": "Playwright API, UI, and cross-layer test automation portfolio for DemoShop",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "powershell -NoProfile -File tests\\run.ps1 api",
+    "test:combined": "powershell -NoProfile -File tests\\run.ps1 combined",
+    "test:performance": "powershell -NoProfile -File tests\\performance\\run.ps1"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "api-testing",
+    "ui-testing",
+    "k6"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}
